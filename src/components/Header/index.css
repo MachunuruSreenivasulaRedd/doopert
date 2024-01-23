@@ -1,0 +1,100 @@
+.headerContainer{
+    background-color: #fff;
+    padding: 38px 38px 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    background: var(--White, #FFF);           
+    height: 125px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E1E5E8;
+}
+
+.logo{
+    width: 123.538px;
+height: 36px;
+flex-shrink: 0;
+}
+.a{
+    color: #8D98A4;
+font-family: Montserrat;
+font-size: 14px;
+margin-left:24px;
+font-weight: 500;
+line-height: 16.24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.header-items{
+    display: flex;
+    align-items: center;
+    justify-self:center;
+}
+.a2{
+    font-size: 16px;
+    color: #8D98A4;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.dropdown{
+    font-size: 11px;
+    color: #8D98A4;
+    margin-top: 6px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.dropdown2{
+    font-size: 11px;
+    color: #262728;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.greyContainer{
+    background-color: #F5F6F7;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30px;
+    color: rgb(45, 43, 43);
+    font-weight: 400;
+    border-radius: 7px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.dropProfile{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: none;
+    min-width:120px;
+}
+.imgProfile{
+    text-decoration: none;
+    background-color: transparent;
+}
+.oo:visited{
+    text-decoration: none;
+    background-color: white;
+}
+.dropProfile:visited{
+    background-color: inherit;
+    color:black;
+}
+.iconContainer{
+    background-color: #E40443;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 7px;
+    cursor: pointer;
+}

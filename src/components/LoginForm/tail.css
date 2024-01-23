@@ -1,0 +1,140 @@
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+.loginMainContainer {
+    @apply overflow-hidden;
+  }
+  .maincontainer {
+    @apply flex justify-between items-center min-h-screen bg-white w-screen overflow-hidden p-2.5;
+  }
+  .contLink {
+    @apply no-underline text-[#E40443] font-medium;
+  }
+  .leftcontainer {
+    @apply flex flex-col justify-evenly bg-[#B60336] w-[467px] min-h-[89vh] ml-2.5 px-[45px] py-[15px] rounded-2xl;
+  }
+  .dooper {
+    @apply text-base font-semibold text-white leading-[17.6px];
+    font-family: "Montserrat";
+  }
+  .heading {
+    @apply text-[40px] font-bold text-white leading-[54px];
+  }
+  .para {
+    @apply text-[28px] text-white font-normal leading-[38.4px] mt-[-15px];
+    font-family: Montserrat;
+  }
+  .headingContainer {
+    @apply flex flex-col justify-start items-start w-[85%] flex-wrap shrink;
+  }
+  .ratingContainer {
+    @apply bg-white mr-5 p-[15px] rounded-2xl;
+  }
+  .ratingProfile {
+    @apply flex items-center;
+  }
+  .ratingImg {
+    @apply mr-2.5;
+  }
+  .stars {
+    @apply mb-2.5;
+  }
+  .timson {
+    @apply font-medium text-[black];
+  }
+  .ratingText {
+    @apply text-[#1A1C1F] text-base;
+  }
+  
+  /*RIGHT PART*/
+  .rightContainer {
+    @apply flex flex-col items-center justify-between min-w-[50%] p-5;
+  }
+  .welcomeContainer {
+    @apply flex flex-col justify-center items-center text-center;
+  }
+  .welcome {
+    @apply text-3xl font-bold text-[#1A1C1F];
+  }
+  .welcomePara {
+    @apply text-base font-normal text-[#1A1C1F] mt-2.5;
+  }
+  .span_dooper {
+    @apply text-[#E40443];
+  }
+  .loginContainer {
+    @apply flex flex-col items-center justify-between min-h-[90vh] w-[900px];
+  }
+  .label {
+    @apply text-[#8D98A4] text-[13px] mb-[5px];
+  }
+  .loginBtn {
+    @apply bg-[#E40443] text-white w-[300px] text-[15px] h-10 cursor-pointer mt-[10PX] p-2.5 rounded-lg border-[none];
+  }
+  .phoneNumberContainer {
+    @apply flex flex-col items-start mt-10;
+  }
+  .checkBoxContainer {
+    @apply flex items-center -ml-2.5;
+  }
+  .checkPara {
+    @apply text-base font-normal text-[#1A1C1F];
+  }
+  .checkBox {
+    @apply h-[18px] w-[18px] mr-[13px];
+  }
+  .bottomText {
+    @apply text-[#5B6576] text-lg font-normal text-center w-4/5 self-center;
+  }
+  .loginVerifyContainer {
+    @apply flex flex-col items-center justify-between max-h-[90vh] text-center w-[900px];
+  }
+  .verify {
+    @apply text-3xl font-bold text-[#1A1C1F];
+  }
+  .verifyPara {
+    @apply text-base font-normal text-[#1A1C1F] mt-2.5;
+  }
+  .otpContainer {
+    @apply flex flex-col items-center text-center w-[500px];
+  }
+  .otpInput {
+    @apply w-10 h-[30px] rounded-[7px];
+  }
+  .verifyBtn {
+    @apply bg-[#E40443] text-white w-[90%] text-[15px] h-10 cursor-pointer mt-[10PX] p-2.5 rounded-lg border-[none];
+  }
+  
+  /*successful*/
+  .successful {
+    @apply text-3xl font-bold text-[#1A1C1F] mt-5;
+  }
+  .successfulPara {
+    @apply text-base font-medium text-[#1A1C1F] mt-2.5;
+  }
+  .successBtn {
+    @apply bg-[#FCE6EC] text-[#E40443] w-[400px] text-[15px] h-10 cursor-pointer mt-[20PX] mt-10 p-2.5 rounded-lg border-[none];
+  }
+  .successContainer {
+    @apply min-h-[90vh] flex flex-col items-center justify-start w-[900px];
+  }
+  .successImgContainer {
+    @apply flex flex-col justify-between items-center text-center mt-[100px];
+  }
+  
+  /*review*/
+  .reviewContainer {
+    @apply min-h-[90vh] flex flex-col items-center justify-start w-[900px];
+  }
+  .reviewImgContainer {
+    @apply flex flex-col justify-center items-center text-center justify-self-center w-[410px] text-center mt-[150px];
+  }
+  .review {
+    @apply text-3xl font-bold text-[#1A1C1F] mt-5;
+  }
+  .reviewPara {
+    @apply text-base font-medium text-[#1A1C1F] mt-2.5;
+  }
+  
